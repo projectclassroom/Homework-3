@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Tags*/
+body {
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 10px;
+}
+
+/*Utils*/
+.text-italic {
+  font-style: italic;
+}
+
+.text-brown {
+  color: #A16040;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.my-24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+/*Components*/
+.page-header {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+
+section {
+
+}
+

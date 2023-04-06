@@ -125,6 +125,7 @@ table {
   border-spacing: 0;
 }
 
+
 header {
   background-color: black;
   color: white;
@@ -132,45 +133,56 @@ header {
   text-align: center;
 }
 
+body {
+  font-family: 'Times New Roman', Times, serif; /*Sada je font apliciran na svim elementima*/
+}
+
 h1 {
   font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif; /*Mozemo u body staviti i ne moramo vise ponavljati*/
 }
 
 h2 {
   font-size: 15px;
-  font-family: 'Times New Roman', Times, serif;
+  /*font-family: 'Times New Roman', Times, serif;*/
 }
 
 h3 {
   font-size: 10px;
-  font-style: italic;
-  font-family: 'Times New Roman', Times, serif;
+  font-style: italic; /*Da li ce svaki h3 biti italic, ako da sve okej. Na vecim projektima ovo nece biti slucaj nikad*/
+  /*font-family: 'Times New Roman', Times, serif;*/
 }
 
 section {
-  font-size: 36px;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px; /*Ovo je sada visak, s obzirom da smo drugacije organizovali sadrzaj, section ima h2 koje je naslov (i on ima gore definisan font size), i paragraf*/
+  /*font-family: 'Times New Roman', Times, serif;*/
   font-weight: bold;
   text-align: justify;
-  font-weight: 700px;
-  line-height: 41.4px;
+  font-weight: 700px; /*Ovde imas ponovo font weight koji ne moze biti u px samo od 100 do 900- obrisati*/
+  line-height: 41.4px; /*Ne treba ti promena za line height u ovom projektu*/
 }
 
 p {
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
+  /*font-family: 'Times New Roman', Times, serif;*/
   text-align: justify;
   font-weight: 400px;
   line-height: 27.6px;
-  max-width: 737px;
-  max-height: 308px;
+  max-width: 737px; /*Ovo znaci rasiri se do maximalne sirine 737px, a moze i manje, nikad nece biti veci od 737px*/
+  max-height: 308px; /*Isto samo za visinu*/
+  /*Max width i max height imaju posebne slucajeve koriscenja*/
 }
+/*Ucicemo sl nedelje sliku kao pozadinu, za sada ti ne treba
+1. Ovako si stavila na svaki div u projektu
+2. U buducnosti cemo to raditi kroz klase ili recimo id
+*/
 div {
   background-image: url("Best food in Paris 1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*Ponovo section, overajduje ti se sve sto si gore napisala i ponovo stavljaju nove vrednosti*/
 section  {
   font-size: 36px;
   font-family: 'Times New Roman', Times, serif;
@@ -178,8 +190,12 @@ section  {
   text-align: justify;
   color: #A16040;
   font-weight: 700px;
-  line-height: 41.4px;}
+  line-height: 41.4px;
+}
+/*
+Overajduje ti se sve sto si napisala u prethodnom divu
 
+*/
 div {
   background-image: url("Best food in Paris 2.png");
   background-repeat: no-repeat;

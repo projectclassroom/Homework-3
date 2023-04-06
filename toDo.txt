@@ -1,0 +1,6 @@
+1. Preimenovati slike tako da nemaju razmak
+2. Razmisliti sta je sve zajednicko za sve sekcije i tu stilizaciju dodati u okviru stilizacije po tagu
+3. Napraviti utility klase, koje rade samo jedan posao razmisliti koja se stilizacija cesto ponavlja.
+4. Upotrebiti klase, ne stilizovati sve preko tagova
+
+5. Razmisliti kako odjednom centrirati sav sadrzaj sa bele pozadine u figmi
